@@ -2,5 +2,5 @@ aiohttp
 python-decouple
 pyaesni
 psutil
-telethon
+teletho
 html_telegraph_poster
