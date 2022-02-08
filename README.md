@@ -43,4 +43,4 @@ variables for indirectly deployment.
 - `APP_ID` - Api ID of Owner {get it from [my.telegram.org](my.telegram.org).}
 - `API_HASH` - Api hash of Owner {get it from [my.telegram.org](my.telegram.org).}
 - `OWNER` - Put Id Of Auth Users with a space between it, Those are able to use bot.
-- `THUMBNAIL` - Your custom Thumbnail you can also change it in your bot PM.
+- `THUMBNAIL` - Your custom Thumbnail For your Compressed Video, you can also change it in your bot PM.
