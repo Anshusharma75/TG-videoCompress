@@ -34,3 +34,13 @@ Add in [@BotFather](https://t.me/BotFather)
     clear - Clear Queued Files
     showthumb - Show Current Thumbnail
     cmds - List Available Commands
+
+ 
+## Variables 
+
+variables for indirectly deployment.
+
+- `APP_ID` - Api ID of Owner (get it from my.telegram.org).
+- `API_HASH` - Api hash of Owner (get it from my.telegram.org).
+- `OWNER` - Put Id Of Auth Users with a space between it, Those are able to use bot.
+- `THUMBNAIL` - Your custom Thumbnail you can also change it in your bot PM.
