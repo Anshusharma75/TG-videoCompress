@@ -39,10 +39,10 @@ async def dl_link(event):
         return
     if WORKING or QUEUE:
         QUEUE.update({link: name})
-        return await event.reply(f"**✅ Added {link} in QUEUE**")
+        return await event.reply(f"** Added {link} in QUEUE**")
     WORKING.append(1)
     s = dt.now()
-    xxx = await event.reply("**📥 Downloading...**")
+    xxx = await event.reply("** Downloading...**")
     try:
         dl = await fast_download(xxx, link, name)
     except Exception as er:
@@ -84,14 +84,14 @@ async def dl_link(event):
     ees = dt.now()
     ttt = time.time()
     await nn.delete()
-    nnn = await xxx.client.send_message(xxx.chat_id, "**📤 Uploading...**")
+    nnn = await xxx.client.send_message(xxx.chat_id, "** Uploading...**")
     with open(out, "rb") as f:
         ok = await upload_file(
             client=xxx.client,
             file=f,
             name=out,
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
-                progress(d, t, nnn, ttt, "**📤 Uploading...**")
+                progress(d, t, nnn, ttt, "** Uploading...**")
             ),
         )
     await nnn.delete()
@@ -147,7 +147,7 @@ async def encod(event):
                 "**Added This File in Queue**"
             )
         WORKING.append(1)
-        xxx = await event.reply("**📥 Downloading...**")
+        xxx = await event.reply("** Downloading...**")
         s = dt.now()
         ttt = time.time()
         dir = f"downloads/"
@@ -169,7 +169,7 @@ async def encod(event):
                                 t,
                                 xxx,
                                 ttt,
-                                f"**📥 Downloading**\n__{filename}__",
+                                f"** Downloading**\n__{filename}__",
                             )
                         ),
                     )
@@ -178,7 +178,7 @@ async def encod(event):
                     event.media,
                     dir,
                     progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
-                        progress(d, t, xxx, ttt, f"**📥 Downloading**\n__{filename}__")
+                        progress(d, t, xxx, ttt, f"** Downloading**\n__{filename}__")
                     ),
                 )
         except Exception as er:
@@ -221,14 +221,14 @@ async def encod(event):
         ees = dt.now()
         ttt = time.time()
         await nn.delete()
-        nnn = await e.client.send_message(e.chat_id, "**📤 Uploading...**")
+        nnn = await e.client.send_message(e.chat_id, "** Uploading...**")
         with open(out, "rb") as f:
             ok = await upload_file(
                 client=e.client,
                 file=f,
                 name=out,
                 progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
-                    progress(d, t, nnn, ttt, f"**📤 Uploading**\n__{out.replace(f'encode/', '')}__")
+                    progress(d, t, nnn, ttt, f"** Uploading**\n__{out.replace(f'encode/', '')}__")
                 ),
             )
         await nnn.delete()
