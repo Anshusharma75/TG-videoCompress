@@ -157,7 +157,7 @@ async def something():
         try:
             if not WORKING and QUEUE:
                 user = int(OWNER.split()[0])
-                e = await bot.send_message(user, "**📥 Downloading Queue Files...**")
+                e = await bot.send_message(user, "** Downloading Queue Files...**")
                 s = dt.now()
                 try:
                     if isinstance(QUEUE[list(QUEUE.keys())[0]], str):
@@ -179,7 +179,7 @@ async def something():
                                         t,
                                         e,
                                         tt,
-                                        f"**📥 Downloading**\n__{dl.replace(f'downloads/', '')}__",
+                                        f"** Downloading**\n__{dl.replace(f'downloads/', '')}__",
                                     )
                                 ),
                             )
@@ -223,14 +223,14 @@ async def something():
                 ees = dt.now()
                 ttt = time.time()
                 await nn.delete()
-                nnn = await e.client.send_message(e.chat_id, "**📤 Uploading...**")
+                nnn = await e.client.send_message(e.chat_id, "** Uploading...**")
                 with open(out, "rb") as f:
                     ok = await upload_file(
                         client=e.client,
                         file=f,
                         name=out,
                         progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
-                            progress(d, t, nnn, ttt, f"**📤 Uploading**\n__{out.replace(f'encode/', '')}__")
+                            progress(d, t, nnn, ttt, f"** Uploading**\n__{out.replace(f'encode/', '')}__")
                         ),
                     )
                 await nnn.delete()
