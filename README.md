@@ -22,13 +22,13 @@ A Telegram Bot To Encode Videos Using FFMPEG.
 - [Real Repo](https://github.com/Zylern/TGVid-Comp)
 
 # What is extra in This Repo And Why this Repo🤔
-** In these days [Railway](railway.app) banning many Repo on the basis of the requirements of the Repo,Railway started doing that because many people broke their terms of use they deploy torrent releated stuffs and many illegal terms.**
+● In these days [Railway](railway.app) banning many Repo on the basis of the requirements of the Repo,Railway started doing that because many people broke their terms of use they deploy torrent releated stuffs and many illegal terms.
 
-** During these banning process Railway also banned some dependency of [Real Repo](https://github.com/Zylern/TGVid-Comp) And the code is banned on Repo. **
+● During these banning process Railway also banned some dependency of [Real Repo](https://github.com/Zylern/TGVid-Comp) And the code is banned on Repo. 
 
-** As all knows that Railway has much better speed of compressing video in compare to other free service like heroku **
+● As all knows that Railway has much better speed of compressing video in compare to other free service like heroku 
 
-** That's why I edited Real Repo and make it deployable to railway again And also remove some useless Emoji because I hate emoji 😉.**
+● That's why I edited Real Repo and make it deployable to railway again And also remove some useless Emoji because I hate emoji 😉.
 
 ## Commands
 Add in [@BotFather](https://t.me/BotFather)
