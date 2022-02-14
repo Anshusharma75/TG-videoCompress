@@ -1,6 +1,6 @@
 # TG-videoCompress
 
-A Telegram Bot To Encode Videos Using FFMPEG.
+A Telegram Bot To Encode Videos Using FFMPEG
 
 - `Queue` - This bot has queue feature.
 - `Thumbnail` - Send any image and it will be set as file thumbnail.
