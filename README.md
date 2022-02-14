@@ -21,7 +21,7 @@ A Telegram Bot To Encode Videos Using FFMPEG.
 - [Base Repo](https://github.com/1Danish-00/CompressorQueue)
 - [Real Repo](https://github.com/Zylern/TGVid-Comp)
 
-# What is extra in This Repo And Why this Repo🤔
+# What's The Extra In This Repo And Why This Repo🤔
 ● In these days [Railway](railway.app) banning many Repo on the basis of the requirements of the Repo,Railway started doing that because many people broke their terms of use they deploy torrent releated stuffs and many illegal terms.
 
 ● During these banning process Railway also banned some dependency of [Real Repo](https://github.com/Zylern/TGVid-Comp) And the code is banned on Repo. 
