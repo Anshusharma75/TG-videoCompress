@@ -1,9 +1,9 @@
 {
-    "name": "TGVid-Comp",
+    "name": "TG-videoCompress",
     "description": "A telegram video encoder.",
     "logo": "https://telegra.ph/file/3ca32c39654a059500708.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
-    "repository": "https://github.com/Zylern/TGVid-Comp",
+    "repository": "https://github.com/Anshusharma75/TG-videoCompress",
     "success_url": "",
     "stack": "container",
     "env": {
