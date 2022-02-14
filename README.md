@@ -56,5 +56,5 @@ variables for indirectly deployment.
 - `THUMBNAIL` - Your custom Thumbnail For your Compressed Video, you can also change it in your bot PM.
 
 ## ☆Thanks To☆
-- ▪︎ Danish - *For the Base Repo*
-- ▪︎ Zylern- *For their code*
+- `Danish` - *For the Base Repo*
+- `Zylern`- *For their code*
