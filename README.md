@@ -22,7 +22,7 @@ A Telegram Bot To Encode Videos Using FFMPEG.
 - [Real Repo](https://github.com/Zylern/TGVid-Comp)
 
 # What's The Extra In This Repo And Why This Repo🤔
-● In these days [Railway](railway.app) banning many Repo on the basis of the requirements of the Repo,Railway started doing that because many people broke their terms of use they deploy torrent releated stuffs and many illegal terms.
+● In these days [Railway](railway.app) banning many Repo on the basis of the requirements of the Repo,Railway started doing that because many people broke their terms of use they deploy illegal stuffs.
 
 ● During these banning process Railway also banned some dependency of [Real Repo](https://github.com/Zylern/TGVid-Comp) And the code is banned on Repo. 
 
