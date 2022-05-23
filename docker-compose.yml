@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      APP_ID: $APP_ID
+      API_HASH: $API_HASH
+      BOT_TOKEN: $BOT_TOKEN
+      OWNER: $OWNER
+      THUMBNAIL: $THUMBNAIL
