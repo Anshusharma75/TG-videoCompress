@@ -3,4 +3,4 @@ python-decouple
 pyaesni
 psutil
 telethon
-html_telegraph_poster
+html_telegraph_poste
