@@ -1,5 +1,5 @@
 {
-    "name": "TG-videoCompress",
+    "name": "TG-videoCompress"
     "description": "A telegram video encoder.",
     "logo": "https://telegra.ph/file/c1cb2ae0417b5492f8785.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
